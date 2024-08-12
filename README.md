@@ -1,10 +1,12 @@
 # Online Normalization (onorm)
 
+[![ci](https://github.com/ddimmery/onorm/actions/workflows/ci.yml/badge.svg)](https://github.com/ddimmery/onorm/actions/workflows/ci.yml)
+
 
 ```python
 import numpy as np
-from plotnine import ggplot, geom_point, aes, theme_minimal
 import pandas as pd
+from plotnine import aes, geom_point, ggplot, theme_minimal
 ```
 
 
@@ -12,7 +14,7 @@ import pandas as pd
 n = 100
 d = 2
 
-X = np.random.normal(size = (n, d))
+X = np.random.normal(size=(n, d))
 df = pd.DataFrame(X, columns=["X1", "X2"])
 
 ggplot(df, aes("X1", "X2")) + geom_point() + theme_minimal()
