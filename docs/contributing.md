@@ -2,7 +2,7 @@
 
 ## Code of Conduct
 
-Before starting out, please take a look at our [Code of Conduct](code_of_conduct.md). Participation means that you agree to engage constructively with the community as per the Code.
+Before starting out, please take a look at our [Code of Conduct](code-of-conduct.md). Participation means that you agree to engage constructively with the community as per the Code.
 
 ## Development
 
