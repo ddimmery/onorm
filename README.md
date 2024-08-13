@@ -1,6 +1,8 @@
 # Online Normalization (onorm)
 
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code-of-conduct.md)
 [![ci](https://github.com/ddimmery/onorm/actions/workflows/ci.yml/badge.svg)](https://github.com/ddimmery/onorm/actions/workflows/ci.yml)
+![PyPI](https://img.shields.io/pypi/v/onorm)
 
 
 ```python

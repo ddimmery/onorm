@@ -1,7 +1,7 @@
 Online Normalization (onorm)
 ============================
 
-|ci|
+|Contributor Covenant| |ci| |PyPI|
 
 .. code:: python
 
@@ -24,5 +24,8 @@ Online Normalization (onorm)
 
    png
 
+.. |Contributor Covenant| image:: https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg
+   :target: code-of-conduct.md
 .. |ci| image:: https://github.com/ddimmery/onorm/actions/workflows/ci.yml/badge.svg
    :target: https://github.com/ddimmery/onorm/actions/workflows/ci.yml
+.. |PyPI| image:: https://img.shields.io/pypi/v/onorm
