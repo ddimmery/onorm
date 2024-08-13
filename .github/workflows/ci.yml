@@ -12,8 +12,9 @@ jobs:
         run: pipx install poetry
       - uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: '3.12'
           cache: 'poetry'
+          cache-dependency-path: pyproject.toml
       - run: poetry install
       - name: Test Coverage
         run: make coverage
