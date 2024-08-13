@@ -1,10 +1,12 @@
 [tool.poetry]
 name = "onorm"
 version = "0.1.0"
-description = ""
+description = "A library for normalizing streams of incoming data, particularly focused on improving sequential experimentation."
 authors = ["Drew Dimmery <drew.dimmery@gmail.com>"]
 license = "Apache-2.0"
 readme = "README.md"
+homepage = "https://ddimmery.github.io/onorm/"
+repository = "https://github.com/ddimmery/onorm"
 
 [tool.poetry.dependencies]
 python = "^3.12"
