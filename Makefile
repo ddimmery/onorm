@@ -23,4 +23,5 @@ build_readme: README.ipynb
 	rm -rf docs/README_files/ 
 	mv README_files docs/ 
 	cp -r docs/README_files .github/
-	pandoc --from=markdown --to=rst --output=.github/README README.md
+	cp README.md .github/
+	pandoc --from=markdown --to=rst --output=README README.md
