@@ -17,6 +17,7 @@ class MinMaxScaler(Normalizer):
     $$\\textrm{mx}_{ti} = \\max \\{x_{1i},\\dots x_{ti}\\}$$
 
     Then normalization is:
+
     $$\\frac{x_{ti} - \\textrm{mn}_{ti}}{\\textrm{mx}_{ti} - \\textrm{mn}_{ti}}$$
     """
 
