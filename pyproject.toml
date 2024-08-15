@@ -5,8 +5,8 @@ description = "A library for normalizing streams of incoming data, particularly 
 authors = ["Drew Dimmery <drew.dimmery@gmail.com>"]
 license = "Apache-2.0"
 readme = "README.md"
-homepage = "https://ddimmery.github.io/onorm/"
-repository = "https://github.com/ddimmery/onorm"
+homepage = "https://passexp.github.io/onorm/"
+repository = "https://github.com/passexp/onorm"
 
 [tool.poetry.dependencies]
 python = "^3.12"

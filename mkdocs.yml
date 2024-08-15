@@ -1,6 +1,6 @@
 site_name: Online Normalization
-site_url: https://ddimmery.github.io/onorm
-repo_url: "https://github.com/ddimmery/onorm"
+site_url: https://passexp.github.io/onorm
+repo_url: "https://github.com/passexp/onorm"
 repo_name: "onorm"
 nav:
   - Home: index.md
