@@ -1,4 +1,5 @@
-name: ci 
+name: ci
+permissions: write-all
 on:
   push:
     branches:
