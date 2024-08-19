@@ -22,8 +22,8 @@ class MinMaxScaler(Normalizer):
     """
 
     def __init__(self, n_dim: int) -> None:
-        self.min = np.array([np.inf] * n_dim)
-        self.max = np.array([-np.inf] * n_dim)
+        self.n_dim = n_dim
+        self.reset()
 
     def _update_min(self, x: np.ndarray) -> None:
         self.min = np.fmin(self.min, x)
@@ -56,3 +56,7 @@ class MinMaxScaler(Normalizer):
         if np.linalg.norm(denom) <= np.finfo(np.float64).eps:
             denom = 1
         return (x - self.min) / denom
+
+    def reset(self):
+        self.min = np.array([np.inf] * self.n_dim)
+        self.max = np.array([-np.inf] * self.n_dim)

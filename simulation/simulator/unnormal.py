@@ -1,4 +1,5 @@
 import numpy as np
+
 from onorm import Normalizer
 
 
@@ -8,3 +9,6 @@ class Unnormalizer(Normalizer):
 
     def transform(self, x: np.ndarray) -> np.ndarray:
         return x
+
+    def reset(self):
+        pass

@@ -39,6 +39,7 @@ class Evaluator(metaclass=ABCMeta):
 
     def evaluate(self) -> None:
         for model in self.models:
+            model.reset()
             time_start = time.time()
             A = np.zeros(self.n)
             Y = np.zeros(self.n)

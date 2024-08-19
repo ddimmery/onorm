@@ -48,3 +48,7 @@ class Normalizer(metaclass=ABCMeta):
         """
         self.partial_fit(x)
         return self.transform(x)
+
+    @abstractmethod
+    def reset(self) -> None:
+        raise NotImplementedError

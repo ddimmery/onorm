@@ -19,3 +19,7 @@ class Pipeline(Normalizer):
         for normalizer in self.normalizers:
             x = normalizer.transform(x)
         return x
+
+    def reset(self):
+        for normalizer in self.normalizers:
+            normalizer.reset()

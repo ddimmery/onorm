@@ -12,3 +12,6 @@ class Bernoulli(metaclass=ABCMeta):
 
     def assign_all(self, X):
         return np.array([self.assign_next(X[i, :]) for i in range(X.shape[0])])
+
+    def reset(self):
+        pass

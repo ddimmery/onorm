@@ -17,3 +17,6 @@ class Model(metaclass=ABCMeta):
 
     def assign(self, x: np.ndarray) -> np.ndarray:
         return self.assigner.assign_next(x)
+
+    def reset(self):
+        self.assigner.reset()
